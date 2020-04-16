@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   android:background="@drawable/gmg"
+    >
+    
+        
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+     android:textScaleX="1.5"
+    android:text="“(●—●)”解读:"
+    />
+  
+  <TextView 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="增强心肌功能 人在水中运动时，各器官都参与其中，耗能多，血液循环也随之加快，以供给运动器官更多的营养
+物质。"
+    />
+    
+    
+    
+     <TextView 
+    android:id="@+id/textView2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="人在游泳时，通常会利用水的浮力俯卧或仰卧于水中，全身松弛而舒展，使身体得到全面、匀称、协调的发展，使
+肌肉线条流畅。"
+    />
+    
+
+    
+     <TextView 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="水中运动呼吸主要靠肺，肺功能的强弱由呼吸肌功能的强弱来决定，运动是改善和提高肺活量的有效手段之一。"
+    />
+    
+      <ImageView 
+    android:id="@+id/backsport3" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+    android:src="@drawable/back"
+    />
+</LinearLayout>

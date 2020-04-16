@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/gmg"
+     >
+        
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+    android:textSize="15sp"
+    android:text="“(●—●)”解读:"
+     android:textScaleX="1.5"
+    />
+  
+
+    
+    
+    
+     <TextView 
+    android:id="@+id/textView2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="对于青少年来说，爆发力是非常重要的，在力量练习时，选择适宜的负荷，尽量加快动作速度，对提高肌肉的爆发
+力十分有益。"
+    />
+    
+
+    
+     <TextView 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="在进行力量练习时，应根据自己的实际情况选择合适的负荷，但无论选用什么样的负荷，都要遵循由小至大的原则
+，切勿突然增加运动负荷造成运动损伤。"
+    />
+    
+      <ImageView
+    android:id="@+id/backsport2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+  android:src="@drawable/back"
+    />
+
+</LinearLayout>

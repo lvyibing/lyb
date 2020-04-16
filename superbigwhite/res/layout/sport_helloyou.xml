@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testbg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titlesport"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="告诉大白你喜欢的运动"
+        android:textColor="#FF0000"
+        android:textSize="25sp" />
+ <TextView
+      
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       
+        android:textColor="#FF0000"
+        android:textSize="25sp" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupsport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButton1sport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="热衷于各种球类运动"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/radioButton2sport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="喜欢挑战极限"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/radioButton3sport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="对水中的一些项目比较感兴趣"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/radioButton4sport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="喜欢做一些有节奏的运动"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/radioButton5sport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="热爱奔跑"
+            android:textColor="#000" />
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/button01sport"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/testbutton" />
+
+</LinearLayout>

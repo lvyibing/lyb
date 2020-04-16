@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+   android:background="@drawable/gmg" >
+  
+  
+    
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+   android:textScaleX="1.5"
+    android:text="“医师”解读:"
+    />
+  
+  <TextView 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="健康--素食的饱和脂肪含量佷低，可降低血压和胆固醇含量"
+    />
+    
+    
+    
+     <TextView 
+    android:id="@+id/textView2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="美丽--使血液变为微碱性，促进新陈代谢活动，可自然减肥"
+    />
+    
+     <TextView 
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="聪明--增强人的智慧和判断力，使人容易放松及提高专注力"
+    />
+    
+     <TextView 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="经济--比荤食便宜很多，不必为生猛“大菜”而买单"
+    />
+    
+    <TextView 
+    android:id="@+id/textView5" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dip"
+    android:textSize="15sp"
+    android:textColor="#FF0000"
+     android:textScaleX="1.5"
+    android:text="“医师”建议:"
+    />
+    
+    <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+       android:textScaleX="1.5"
+      android:text="适当吃一些鱼类"
+    />
+    
+    <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+       android:textScaleX="1.5"
+      android:text="适当一些牛肉类"
+    />
+    
+    <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+       android:textScaleX="1.5"
+      android:text="少吃油炸食品"
+    />
+    
+    <ImageView
+    android:id="@+id/back" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+     android:src="@drawable/back"
+     />
+
+</LinearLayout>

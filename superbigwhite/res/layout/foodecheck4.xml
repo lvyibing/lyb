@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  android:background="@drawable/gmg">
+  
+  
+    
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+    android:textScaleX="1.5"
+    android:text="“医师”解读:"
+    />
+  
+  <TextView 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="暴饮暴食会出现头晕脑涨、精神恍惚、肠胃不适、胸闷气急、腹泻或便秘，严重的会引起急性胃肠炎，甚至胃出血；大鱼大肉、大量饮酒会使肝胆超负荷运转，肝细胞加快代谢速度，胆汁分泌增加，造成肝功能损害，诱发胆囊炎，促使肝炎病人病情加重，也会使胰腺大量分泌，十二指肠内压力增高，诱发急性胰腺炎，重症者可致人非命。"
+    />
+    
+   
+    <TextView 
+    android:id="@+id/textView5" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dip"
+    android:textScaleX="1.5"
+    android:textColor="#FF0000"
+    android:text="“医师”建议:"
+    />
+    
+    <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+       android:textScaleX="1.5"
+      android:text="控制好个人饮食"
+    />
+    
+    <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+       android:textScaleX="1.5"
+      android:text="饮食自热、规律"
+    />
+    
+    <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+       android:textScaleX="1.5"
+      android:text="减少交际应酬"
+    />
+    
+   <ImageView 
+    android:id="@+id/back" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+    android:src="@drawable/back"
+    />
+
+</LinearLayout>

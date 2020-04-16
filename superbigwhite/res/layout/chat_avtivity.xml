@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#d8e0e8"
+    android:orientation="vertical" >
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/heee"
+         >
+	
+
+	 <ImageButton
+	     android:id="@+id/delete"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentRight="true"
+	     android:layout_alignParentTop="true"
+	     android:onClick="onclick"
+	     android:background="@drawable/delete"/>
+
+	 <ImageButton
+	     android:id="@+id/set"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentTop="true"
+	     android:background="@drawable/set"
+	     android:onClick="onclick" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/msg_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#0000" >  
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      
+        >
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:hint="请输入"
+            android:maxLines="1" />
+        
+        <ImageButton
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/send"
+            android:onClick="onclick" />
+
+</LinearLayout>
+</LinearLayout>

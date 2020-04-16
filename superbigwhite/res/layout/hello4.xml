@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/gmg"
+    >
+    
+        
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+   android:textScaleX="1.5"
+    android:text="“(●—●)”解读:"
+    />
+  
+  <TextView 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="一般情况下，音乐的节奏节拍可以一定程度上影响人的情绪。就像听到舒缓和歌会轻松，听到激进的歌会亢奋一样。“节奏快”的音乐一定程度上会使人进入一个快节奏状态，有利于激发人的情绪，引导其走向兴奋状态，在精神不太好或做一些枯燥的工作时可以促使人保持高状态的精力。"
+    />
+    
+    
+    
+
+    
+     <ImageView 
+    android:id="@+id/backsport4" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+    android:src="@drawable/back"
+    />
+</LinearLayout>

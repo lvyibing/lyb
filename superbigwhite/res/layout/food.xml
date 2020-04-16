@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/testbg"
+    >
+ 
+  <TextView 
+    android:id="@+id/title" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000" 
+    android:textSize="25sp"
+    android:gravity="center"
+     
+    android:text="告诉大白你的饮食规律"
+    />
+      <TextView 
+  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000" 
+    android:textSize="25sp"
+    android:gravity="center"
+    />
+    <RadioGroup
+    android:id="@+id/radioGroup" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <RadioButton
+    android:id="@+id/radioButton1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+       android:textColor="#000"
+    android:text="完美素食主义者，滴肉不沾！"
+   />
+    
+   <RadioButton
+    android:id="@+id/radioButton2" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+       android:textColor="#000"
+    android:text="杂食主义者，随心所欲！"
+   />
+
+  <RadioButton
+    android:id="@+id/radioButton3" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+       android:textColor="#000"
+    android:text="完全肉食主义者，非肉不吃！"
+   />
+   
+    <RadioButton
+    android:id="@+id/radioButton4" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+       android:textColor="#000"
+    android:text="暴饮暴食，一日三餐不定"
+   />
+   
+   <RadioButton
+    android:id="@+id/radioButton5" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+       android:textColor="#000"
+    android:text="滴水即可,别无他求"
+   />
+   
+   <RadioButton
+    android:id="@+id/radioButton6" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+       android:textColor="#000"
+    android:text="异食癖，饮食怪异者"
+   />
+   
+</RadioGroup>
+
+<ImageButton 
+    android:id="@+id/button01" 
+  
+   android:layout_width="120dp"
+        android:layout_height="48dp"
+    android:layout_gravity="center"
+   android:background="@drawable/testbutton"
+    />
+  
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/gmg"
+    >
+    
+        
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+  android:textScaleX="1.5"
+    android:text="“(●—●)”解读:"
+    />
+  
+  <TextView 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="坚持长跑的人每天都有1小时候左右的时间眼睛直视远方，这对眼睛是很好的放松休息。"
+    />
+    
+    
+    
+     <TextView 
+    android:id="@+id/textView2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="有了强大的心脏血管系统，跑者的血液质量也好于常人，身体对长期中长跑发生的适应性改变可改善新陈代谢，减低血脂和胆固醇水平。"
+    />
+    
+
+    
+     <TextView 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="经常跑步的人肌肉组织也会发生变化，一定体积的肌肉中毛细血管的分布数量大大增加，更够更高效地舒服氧气、养分。 "
+    />
+    
+      <ImageView 
+    android:id="@+id/backsport5" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+   android:src="@drawable/back"
+    />
+</LinearLayout>

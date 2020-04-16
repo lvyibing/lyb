@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dabai.database"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
+ 
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+       
+        
+        <activity android:name="com.dabai.welcome.ChangeTimeAcitivity"
+           
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name="com.dabaichat.database.MainActivity"/>
+        <activity android:name="com.dabai.healthCheck.food.FoodCheck1"/>
+        <activity android:name="com.dabai.healthCheck.food.FoodCheck2"/>
+        <activity android:name="com.dabai.healthCheck.food.FoodCheck3"/>
+        <activity android:name="com.dabai.healthCheck.food.FoodCheck4"/>
+        <activity android:name="com.dabai.healthCheck.food.FoodCheck5"/>
+        <activity android:name="com.dabai.healthCheck.food.FoodCheck6"/>
+        <activity android:name="com.dabai.healthCheck.sport.sportCheck1"></activity>
+        <activity android:name="com.dabai.healthCheck.sport.sportCheck2"></activity>
+        <activity android:name="com.dabai.healthCheck.sport.sportCheck3"></activity>
+        <activity android:name="com.dabai.healthCheck.sport.sportCheck4"></activity>
+        <activity android:name="com.dabai.healthCheck.sport.sportCheck5"></activity>
+        <activity android:name="com.dabai.healthCheck.ActivityMain"></activity>
+        <activity android:name="com.dabai.healthCheck.FigureCheck"/>
+        <activity android:name="com.dabai.healthCheck.sportcheck"/>
+        <activity android:name="com.dabai.healthCheck.FoodCheck"/>
+        <activity android:name="com.dabai.healthCheck.Report"/>
+        <activity android:name="com.example.dabai.GameMainActivity"
+                  android:screenOrientation="landscape" 
+                ></activity>
+		<activity android:name="com.dabaichat.database.ChatUIActivity"></activity>
+		<activity android:name="com.dabaichat.database.SetMainActivity"></activity>
+        <activity android:name="com.dabai.find.aboutActivity"></activity>
+        <activity android:name="com.dabai.yiliao.shenjingActivity"></activity>
+        <activity android:name="com.dabai.yiliao.neikeActivity"></activity>
+        <activity android:name="com.dabai.yiliao.waikeActivity"></activity>
+        <activity android:name="com.dabai.yiliao.yiliaoActivity"></activity>
+    </application>
+ 
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+</manifest>

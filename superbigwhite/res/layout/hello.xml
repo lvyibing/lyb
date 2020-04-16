@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/gmg"
+    >
+    
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+    android:textSize="15sp"
+    android:text="“(●—●)”解读:"
+     android:textScaleX="1.5"
+    />
+  
+  <TextView 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="球类运动可以减少脂肪，增加肌肉力量，保持关节柔韧，可以有效控制体重，改善体型和外表。"
+    />
+    
+    
+    
+     <TextView 
+    android:id="@+id/textView2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="在进行球类运动的时候，需要大口地吸入氧气，经过长时间的锻炼，有利于肺活量的增大，"
+    />
+    
+
+    
+     <TextView 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+    android:textScaleX="1.5"
+    android:text="如果采用科学的训练方法，通过循序渐进的教学，就会进一步发挥孩子身体素质方面的优势，改善孩子身体素质方面的不足。 "
+    />
+    
+       <ImageView 
+    android:id="@+id/backsport" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+    android:src="@drawable/back"
+    />
+</LinearLayout>

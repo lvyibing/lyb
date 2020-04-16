@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  android:background="@drawable/gmg">
+  
+  
+    
+  <TextView 
+    android:id="@+id/textView0" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FF0000"
+    android:textScaleX="1.5"
+    android:text="“医师”解读:"
+    />
+  
+  <TextView 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="五谷为养--食五谷、精粗搭配"
+    />
+    
+    
+    
+     <TextView 
+    android:id="@+id/textView2" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="五畜为益--鸡、鸭、鱼、兔、猪、羊、牛及水产类等各种动物性食品"
+    />
+    
+     <TextView 
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="五果为助--水、维生素、和微量元素（矿物质）"
+    />
+    
+     <TextView 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:textColor="#FFFFFF"
+    android:textStyle="italic"
+     android:textScaleX="1.5"
+    android:text="五菜为充--水分多、维生素多、纤维素多"
+    />
+    
+    <TextView 
+    android:id="@+id/textView5" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dip"
+   android:textScaleX="1.5"
+    android:textColor="#FF0000"
+    android:text="“医师”建议:"
+    />
+    
+    <TextView 
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+     android:textScaleX="1.5"
+    android:text="饮食合理，建议继续保持"
+    />
+    
+   <ImageView
+    android:id="@+id/back" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_gravity="center"
+android:src="@drawable/back"
+    />
+
+</LinearLayout>
